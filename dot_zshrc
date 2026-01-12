@@ -10,6 +10,10 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.cargo/bin::$PATH
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Editor
+export EDITOR="/usr/bin/micro"
+export VISUAL="$EDITOR"
+
 # Themes
 ZSH_THEME="robbyrussell"
 
