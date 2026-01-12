@@ -1,0 +1,37 @@
+# Show user/host name
+export SHOW_USER=true
+if [[ "$SHOW_USER" == "true" ]]; then
+  RPROMPT="%F{cyan}(%F{yellow}%n%F{cyan}@%F{green}%m%F{cyan})"
+fi
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Themes
+ZSH_THEME="robbyrussell"
+
+# Plugins
+plugins=(
+	git
+	command-not-found
+	copyfile
+	copypath
+	history-substring-search
+	zsh-bat
+	extract
+	sudo
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Aliases
+alias ls='eza --icons'
+alias tree='eza -la --icons --tree --total-size --hyperlink'
+
+# Environment
+export BAT_THEME="Visual Studio Dark+"
