@@ -38,4 +38,4 @@ alias ls='eza --icons'
 alias tree='eza -la --icons --tree --total-size --hyperlink'
 
 # Environment
-export BAT_THEME="Visual Studio Dark+"
+export BAT_THEME="Dracula"
