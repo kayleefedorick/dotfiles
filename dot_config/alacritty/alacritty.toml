@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/midnight_haze.toml"
+    "~/.config/alacritty/themes/dracula_darker.toml"
 ]
 
 [window]
