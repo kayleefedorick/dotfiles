@@ -1,0 +1,18 @@
+[
+  {
+    "name": "GCC 15.2.0 x86_64-unknown-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "LLVM 21 (Flatpak SDK)",
+    "compilers": {
+      "C": "/usr/lib/sdk/llvm21/bin/clang",
+      "CXX": "/usr/lib/sdk/llvm21/bin/clang++"
+    },
+    "isTrusted": true
+  }
+]
