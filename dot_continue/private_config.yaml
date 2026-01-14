@@ -1,0 +1,22 @@
+name: Local Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Mistral Nemo Instruct 2407
+    provider: openai
+    model: mistralai/mistral-nemo-instruct-2407
+    roles:
+      - chat
+      - edit
+      - apply
+    apiBase: http://192.168.1.2:1234/v1
+    apiKey: mistralai/mistral-nemo-instruct-2407
+
+  - name: Mythomax L2 13B
+    provider: openai
+    model: mythomax-l2-13b
+    roles:
+      - chat
+    apiBase: http://192.168.1.2:1234/v1
+    apiKey: mythomax-l2-13b
