@@ -1,5 +1,5 @@
 {
-    // SDKs
+    // LLVM Path
     "terminal.integrated.env.linux": {
         "PATH": "/usr/lib/sdk/llvm21/bin:${env:PATH}"
     },
@@ -40,6 +40,6 @@
     "terminal.integrated.fontWeightBold": "normal",
 
     // --- Edits by VSCode below ----
-
-        
+    "window.zoomPerWindow": false,
+    
 }
