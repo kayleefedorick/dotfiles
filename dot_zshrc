@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias upgrade='cd $HOME/Developer/ansible-for-fedora-workstation/ && \
-               ansible-playbook playbook.yml --ask-become-pass'
+               git pull && ansible-playbook playbook.yml --ask-become-pass'
 alias update='chezmoi update'
 
 alias ls='eza --icons'
