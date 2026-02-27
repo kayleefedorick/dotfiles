@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "file:///home/kaylee/.vscode-oss/extensions/continue.continue-1.2.16-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "workbench.colorTheme": "Dracula Theme",
+    "redhat.telemetry.enabled": false
+}
