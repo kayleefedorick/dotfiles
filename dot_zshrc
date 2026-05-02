@@ -41,5 +41,14 @@ alias update='chezmoi update'
 alias ls='eza --icons'
 alias tree='eza -la --icons --tree --total-size --hyperlink'
 
+alias nkxtract='/home/kaylee/Developer/nkxtract/nkxtract/bin/Release/net8.0/nkxtract'
+
+# Claude
+alias claude-default='source /home/kaylee/.rmlmstudio && claude --model claude-sonnet-4.6'
+alias claude-local='source /home/kaylee/.lmstudio && claude --model omnicoder-qwen3.5-9b-claude-4.6-opus-uncensored-v2'
+
 # Environment
 export BAT_THEME="Dracula"
+
+# opencode
+export PATH=/home/kaylee/.opencode/bin:$PATH
