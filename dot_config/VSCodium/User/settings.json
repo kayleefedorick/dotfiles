@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Dracula Theme",
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "claudeCode.preferredLocation": "panel",
+    "circuitpython.board.pid": "",
+    "raspberry-pi-pico.python3Path": "/bin/python",
+    "gitlens.graph.minimap.enabled": false,
+    "opencodeTui.defaultAiTool": "opencode",
+    "workbench.activityBar.compact": true,
+}
